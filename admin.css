@@ -1,0 +1,98 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.back-icon {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #5c6bc0;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.back-icon i {
+    margin-right: 8px;
+}
+
+.back-icon:hover {
+    color: #3949ab;
+}
+
+.dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.dashboard-header p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+.stats-card {
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-card h5 {
+    font-size: 1.2rem;
+    color: #5c6bc0;
+    margin-bottom: 10px;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+.activity-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-list li {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #5c6bc0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #3949ab;
+    transform: translateY(-2px);
+}

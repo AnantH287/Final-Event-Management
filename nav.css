@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navbar-nav .nav-item {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#navbar a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#home {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.2rem 1rem;
+    box-shadow: 5px 5px 10px black;
+    background: linear-gradient(135deg, #3a3d5c, #1e1f33);
+    height: 70px;
+}
+
+.nav.navbar-brand {
+    font-size: 45px;
+    font-weight: 1500;
+}
+
+#navbarSupportedContent {
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid #008080;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #3a3d5c, #1e1f33);
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav a:hover {
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        height: auto;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        padding: 10px;
+    }
+}

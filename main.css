@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;}
+
+.nav-item{
+    font-size: 25px;
+    padding: 20px;
+}
+.collapse{
+    background-color:#FF6F61;
+}
+#home{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+/* =======content======== */
+.content{
+    margin-top: 50px;
+}
+#event{
+    margin-top: 40px;
+}
+.content h1,p{
+    margin-left: 0px;
+}
+
+.content h1{
+ font-weight: 900;
+ margin-top: 30px;
+ color: black;
+}
+.content p{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: justify;
+    padding:40px;
+}
+.content h5{
+    border: 20px solid black;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.content img{
+    margin-top: 50px;
+    width: 580px;
+    height: 800px;
+    border-radius: 20px;
+    margin-left: -50px;
+}
+.firstcol{
+    display:inline-block;
+}
+.secondcol{
+    display:inline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.gallery img {
+    width: 48%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.description {
+    text-align: center;
+    margin: 20px 0;
+}
+.description p {
+    font-size: 1.2em;
+    color: #555;
+}
+.second-content h1{
+    font-weight: 700;
+}
+.second-content p{
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* ==========card========== */
+#Product {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Styling for the card */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-outline-success {
+    border: 2px solid #FF6F61;
+    color: #FF6F61;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-outline-success:hover {
+    background-color: #FF6F61;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .card img {
+        height: 180px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+#product h1{
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* =========footer========== */
